@@ -1,0 +1,36 @@
+jQuery(document).ready(function($) {
+	$("#sln-nav-audience").hover(function(){
+		$("#sln-list-brand").hide();	
+		$('#sln-link-brand').hide();
+		$("#sln-list-solution").hide();
+		$('#sln-link-solution').hide();
+		$("#sln-nav-brand").removeClass("active");
+		$("#sln-nav-solution").removeClass("active");
+		$("#sln-list-audience").show();
+		$('#sln-link-audience').show();
+		$("#sln-nav-audience").addClass("active");
+	});
+	$("#sln-nav-brand").hover(function(){
+		$("#sln-list-audience").hide();
+		$("#sln-link-audience").hide();
+		$("#sln-list-solution").hide();
+		$('#sln-link-solution').hide();
+		$("#sln-nav-solution").removeClass("active");
+		$("#sln-nav-audience").removeClass("active");
+		$("#sln-list-brand").show();
+		$('#sln-link-brand').show();
+		$("#sln-nav-brand").addClass("active");	
+	});
+	$("#sln-nav-solution").hover(function(){
+		$("#sln-list-audience").hide();
+		$("#sln-link-audience").hide();
+		$("#sln-list-brand").hide();
+		$("#sln-link-brand").hide();
+		$("#sln-nav-audience").removeClass("active");
+		$("#sln-nav-brand").removeClass("active");
+		$("#sln-list-solution").show();
+		$("#sln-link-solution").show();
+		$("#sln-nav-solution").addClass("active");
+		
+	});
+});

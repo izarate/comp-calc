@@ -1,0 +1,253 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Compensation Calculator</title>
+</head>
+<body>
+<div class="splash_screen"><h2>Find out how much your compensation claim is worth</h2>
+<br/>
+<a class="question" href="#start">START</a>
+</div>
+<div id="gender">
+	<h2>Select your gender</h2>
+	<br/>
+	<div class="col_third clear" id="male"><a class="question" href="#">Male</a></div>
+	<div class="col_third" id="female"><a class="question" href="#">Female</a></div>
+	<div class="col_third" id="other"><a class="question" href="#">Other</a></div>
+</div>
+<span style="display:block">&nbsp;</span>
+<div id="injuries">
+	<h2>Where did you sustain injuries?</h2>
+	<br/>
+	<div class="col_fifth clear">
+	<a class="question" href="#">Head</a><br/>
+<ul id="head">
+	<li>Brain & Skull</li>
+		<ul>
+			<li>
+				<input type="checkbox" name="brain_skull">Post Traumatic Stress Disorder</input>
+			</li>
+			<li>
+				<input type="checkbox" name="brain_skull">Epilepsy</input>
+			</li>
+			<li>
+				<input type="checkbox" name="brain_skull">Head Injury</input>
+			</li>
+		</ul>
+	<li>Injury to the Senses</li>
+		<ul>
+			<li>
+				<input type="checkbox" name="senses">Injuries affecting sight</input>
+			</li>
+			<li>
+				<input type="checkbox" name="senses">Loss of Taste</input>
+			</li>
+			<li>
+				<input type="checkbox" name="senses">Loss of Smell</input>
+			</li>
+			<li>
+				<input type="checkbox" name="senses">Deafness</input>
+			</li>
+		</ul>
+	<li>Face & Mouth</li>
+		<ul>
+			<li>
+				<input type="checkbox" name="face_mouth">Scarring</input>
+			</li>
+			<li>
+				<input type="checkbox" name="face_mouth">Fractures to the Jaw</input>
+			</li>
+			<li>
+				<input type="checkbox" name="face_mouth">Damage to Teeth</input>
+			</li>
+			<li>
+				<input type="checkbox" name="face_mouth">Fracture to the Nose</input>
+			</li>
+			<li>
+				<input type="checkbox" name="face_mouth">Fracture to the cheekbone</input>
+			</li>
+		</ul>
+	<li><input type="checkbox">Loss of hair/ damage to hair</input></li>
+</ul>
+</div>
+	<div class="col_fifth"><a class="question" href="#">Upper Body</a>
+<ul id="upper_body">
+	<li>Neck Injury</li>
+		<ul>
+			<li>
+				<input type="checkbox" name="neck_injury">Whiplash</input>
+			</li>
+			<li>
+				<input type="checkbox" name="neck_injury">Fracture or dislocation</input>
+			</li>
+		</ul>
+	<li>Shoulder Injuries</li>
+		<ul>
+			<li>
+				<input type="checkbox">Dislocated Shoulder</input>
+			</li>
+			<li>
+				<input type="checkbox">Soft Tissue Injury</input>
+			</li>
+			<li>
+				<input type="checkbox">Fractured Clavicle</input>
+			</li>
+			<li>
+				<input type="checkbox">Other Shoulder Injuries</input>
+			</li>
+		</ul>
+	<li>Chest Injuries</li>
+		<ul>
+			<li>
+				<input type="checkbox">Injury to Chest</input>
+			</li>
+			<li>
+				<input type="checkbox">Toxic Fume/Smoke Inhalation</input>
+			</li>
+			<li>
+				<input type="checkbox">Penetrating Wound to Chest</input>
+			</li>
+			<li>
+				<input type="checkbox">Fractured ribs and muscular injuries</input>
+			</li>
+		</ul>
+	<li>Asbestos Related Disease</li>
+		<ul>
+			<li>
+				<input type="checkbox">Pleural Thickening</input>
+			</li>
+			<li>
+				<input type="checkbox">Mesothelioma</input>
+			</li>
+			<li>
+				<input type="checkbox">Asbestosis</input>
+			</li>
+		</ul>
+	<li><input type="checkbox">Back Injury</input></li>
+	<li><input type="checkbox">Asthma</input></li>
+	<li><input type="checkbox">Lung Disease</input></li>	
+</ul>
+</div>
+	<div class="col_fifth"><a class="question" href="#">Arm Injury</a>
+<ul id="arm_injury">
+	<li>Hand & Wrist Injuries</li>
+		<ul>
+			<li>
+				<input type="checkbox">Fracture to Fingers</input>
+			</li>
+			<li>
+				<input type="checkbox">Amputation of Finger</input>
+			</li>
+			<li>
+				<input type="checkbox">Carpal Tunnel Syndrome</input>
+			</li>
+			<li>
+				<input type="checkbox">Vibration White Finger/ Other Work RSI</input>
+			</li>
+			<li>
+				<input type="checkbox">Partial Loss of Index Finger</input>
+			</li>
+			<li>
+				<input type="checkbox">Hand Injury</input>
+			</li>
+			<li>
+				<input type="checkbox">Wrist Injury</input>
+			</li>
+		</ul>
+	<li>Arm Injuries</li>
+		<ul>
+			<li>
+				<input type="checkbox">Fracture to Arm</input>
+			</li>
+			<li>
+				<input type="checkbox">Amputation of Arm</input>
+			</li>
+			<li>
+				<input type="checkbox">Scarring</input>
+			</li>
+		</ul>
+</ul>
+</div>
+	<div class="col_fifth"><a class="question" href="#">Lower Body</a>
+<ul id="lower_body">
+	<li>Abdominal & Reproductive System Injuries</li>
+		<ul>
+			<li>
+				<input type="checkbox">Traumatic Injury to Digestive System</input>
+			</li>
+			<li>
+				<input type="checkbox">Hernia</input>
+			</li>
+			<li>
+				<input type="checkbox">Sterility</input>
+			</li>
+			<li>
+				<input type="checkbox">Food Poisoning Causing Digestive System Damage</input>
+			</li>
+			<li>
+				<input type="checkbox">Impotence</input>
+			</li>
+			<li>
+				<input type="checkbox">Sterility</input>
+			</li>
+		</ul>
+	<li>Hip & Leg Injuries</li>
+		<ul>
+			<li>
+				<input type="checkbox">Injury to Pelvis or Hip</input>
+			</li>
+			<li>
+				<input type="checkbox">Leg Fracture</input>
+			</li>
+			<li>
+				<input type="checkbox">Knee Injury</input>
+			</li>
+			<li>
+				<input type="checkbox">Fracture of Hip</input>
+			</li>
+			<li>
+				<input type="checkbox">Amputation of Leg/input>
+			</li>
+		</ul>
+</ul>
+</div>
+	<div class="col_fifth"><a class="question" href="#">Foot Injury</a>
+<ul id="foot_injury">
+	<li>Foot & Ankle Injuries</li>
+		<ul>
+			<li>
+				<input type="checkbox">Foot Fracture</input>
+			</li>
+			<li>
+				<input type="checkbox">Amputation of Both Feet</input>
+			</li>
+			<li>
+				<input type="checkbox">Amputation of the Big Toe</input>
+			</li>
+			<li>
+				<input type="checkbox">Ankle Fracture</input>
+			</li>
+			<li>
+				<input type="checkbox">Amputation of one foot</input>
+			</li>
+			<li>
+				<input type="checkbox">Toe Injuries</input>
+			</li>
+			<li>
+				<input type="checkbox">Amputation of All toes</input>
+			</li>
+			<li>
+				<input type="checkbox">Achilles Tendon</input>
+			</li>
+		</ul>
+</ul>
+</div>
+</div>
+<div id="estimation_cost">
+<label for="estimation">Estimated Claim</label>
+<label id="estimation">$1000</label>
+
+</div>
+</div>
+</body>
+</html>
